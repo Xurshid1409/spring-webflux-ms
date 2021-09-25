@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/webflux_demo/demo.iml" filepath="$PROJECT_DIR$/webflux_demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-webflux-ms.iml" filepath="$PROJECT_DIR$/.idea/spring-webflux-ms.iml" />
+    </modules>
+  </component>
+</project>
