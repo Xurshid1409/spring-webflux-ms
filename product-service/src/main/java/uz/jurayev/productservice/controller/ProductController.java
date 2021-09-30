@@ -8,8 +8,6 @@ import reactor.core.publisher.Mono;
 import uz.jurayev.productservice.dto.ProductDto;
 import uz.jurayev.productservice.service.ProductService;
 
-import java.math.BigDecimal;
-
 @RestController
 @RequestMapping("product")
 public class ProductController {
@@ -33,8 +31,8 @@ public class ProductController {
     }
 
     @GetMapping("price-range")
-    public Flux<ProductDto> getProductByPriceRange(@RequestParam("min") BigDecimal min,
-                                                   @RequestParam("max") BigDecimal max){
+    public Flux<ProductDto> getProductByPriceRange(@RequestParam("min") double min,
+                                                   @RequestParam("max") double max){
         return productService.getProductByPrice(min, max);
     }
 

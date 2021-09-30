@@ -14,5 +14,5 @@ public class Product {
     @Id
     private String id;
     private String description;
-    private BigDecimal price;
+    private double price;
 }

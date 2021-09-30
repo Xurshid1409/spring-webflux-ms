@@ -30,8 +30,8 @@ public class ProductService {
                 .map(DataDtoUtil::toDto);
     }
 
-    public Flux<ProductDto> getProductByPrice(BigDecimal a, BigDecimal b){
-        return repository.findByPriceBetween(a, b)
+    public Flux<ProductDto> getProductByPrice(double min, double max){
+        return repository.findByPriceBetween(min, max)
                 .map(DataDtoUtil::toDto);
     }
 

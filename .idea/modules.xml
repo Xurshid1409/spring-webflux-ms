@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/webflux_demo/demo.iml" filepath="$PROJECT_DIR$/webflux_demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-webflux-ms.iml" filepath="$PROJECT_DIR$/.idea/spring-webflux-ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>
 </project>
